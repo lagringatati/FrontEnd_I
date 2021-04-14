@@ -1,0 +1,83 @@
+/**********COLORES***********/
+header {
+    background-color: rgb(221,221,221);
+}
+body{
+    background-color: rgb(255,255,255);
+}
+footer{
+    background-color: rgb(31,72,124);
+    color: rgb(255,255,255);
+}
+h1, h2{
+    background-color: rgb(191,191,191);
+}
+h1{
+    color: rgb(37,71,122);
+}
+h2{
+    color: rgb(94,42,44);
+}
+
+/**********TEXTO***********/
+h2 {
+    font-size: 18px;
+}
+footer {
+    font-size: 24px;
+}
+h1, h2, ul, footer {
+    text-transform: uppercase;
+}
+h1, h2{
+    letter-spacing: 10px;
+    word-spacing: 20px;
+}
+span {
+    font-weight: bold;
+    font-style: italic;
+}
+ul, dl {
+    font-family: Calibri, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+/**********TAMAÑO IMAGENES Y LOGOS***********/
+p>a>img {
+    height: 24px;
+}
+
+/**********POSICIONES Y TAMAÑOS***********/
+h1 {
+    height: 50px ;
+    line-height: 50px;
+}
+section{
+    margin-left: 550px;
+    margin-right: 550px;
+    margin-top: 45px;
+    margin-bottom: -20px;
+}
+dl{
+    line-height: 18px;
+}
+footer {
+    margin-top: 70px;
+}
+header, footer{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

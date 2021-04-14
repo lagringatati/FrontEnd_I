@@ -1,0 +1,64 @@
+/***********FONDOS***********/
+.img_lemon {
+    opacity:1;
+    background-image: url(../img/lemon-pie.png);
+    background-color: rgb(240,240,240);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:local;
+    width: auto;
+    height: 70vh;
+    color: rgb(255,255,255);
+    font-family: 'Ubuntu', sans-serif;
+}
+footer {
+    background-color: rgb(212,213,218);
+    height: 70px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 50px;
+    font-size: 20px;    
+}
+/***********TEXTOS***********/
+ul {
+    list-style-type: none;
+}
+ul>li>a {   /*saco puntitos a la lista del nav, lo dejo negro y le doy margen */
+    text-decoration: none;
+    color: rgb(0,0,0);
+    margin-left: -35px ;
+}
+.titulo_pie{
+    position: relative;
+    top: 350px;
+    color: rgb(255,255,255);
+    width:auto;
+    margin-right: 50px;
+    font-size: 25px;
+}
+footer>p {
+    position: relative;
+    top: 28px;
+}
+li>a {
+    color: orangered;
+}
+h2, dd, ol {
+    font-family: 'Ubuntu', sans-serif;
+}
+dl {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 19px; 
+}
+h2 {
+    font-weight: bold;
+    font-size: 30px;
+}
+/***********CONTACTO.HTML***********/
+.contacto {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(54,58,163);
+}
