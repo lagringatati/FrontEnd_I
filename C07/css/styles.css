@@ -1,0 +1,125 @@
+/*****************Seteo de valores generales*****************/
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/*****************Div descuento + header*****************/
+.descuento{
+    background-color: #1CD1B0;
+    color: rgb(0,0,0);
+    height: 50px;
+    width: 100%;
+    text-transform: capitalize;
+    font-style: normal;
+    font-size: 30px;
+    padding: 5px 0 5px 30px;
+}
+.sticky {
+    background-color: #00669F;
+    box-shadow: 0 10px 7px rgb(0 0 0 / 25%);
+    color: rgb(255,255,255);
+    text-transform: capitalize;
+    font-weight: normal;
+    font-size: 32px;
+    padding: 5px 0 5px 30px;
+    width: 100%;
+    font-style: normal;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+/*****************Main*****************/
+/*______Circulo "+" fijo a la derecha______*/
+.fa-plus-circle {
+    position: fixed;
+    color:#00669F;
+    font-size: 80px;
+    right: 35px;
+    top: 400px;
+}
+/*______Contenedor/tarjeta______*/
+.card {
+    background-position: top;
+    background-color: #f3f3f3;
+    border-radius: 40px 40px 0 0;
+    height: 610px;
+    margin: 4% 39.5%;
+    padding-bottom:150px;
+    position: relative;
+    width: 400px;
+    box-shadow: 0 10px 7px rgb(0 0 0 / 25%);
+}
+/*______Fondo tarjeta (portada)______*/
+.FotoPortada {
+    border-radius: 40px 40px 0 0;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 400px;
+}
+/*______Corazon (like)______*/
+.fa-heart{
+    position: absolute;
+    color: #CC2424;
+    font-size: 30px;
+    left: 20px;
+    top: 20px;
+    z-index: 10;
+
+}
+/*______Cara superheroe______*/
+.FotoPerfil {
+    border-radius: 50%;
+    height: 150px;
+    left: 125px;
+    position: absolute;
+    top: 150px;
+    width: 150px;
+}
+/*______Contenedor/escrito______*/
+.ContenidoCard {
+    position: absolute;
+    top: 310px;
+    margin: 5%;
+}
+/*______Nombre superheroe______*/
+.Batman, .MujerMaravilla, .Superman {
+    font-size: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 10%;
+}
+/*______Descripcion superheroe______*/
+.descripcion {
+    padding: 0 4px;
+}
+/*______"Boton" de ver mas info______*/
+.boton {
+    background-color: #00669F;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 25px;
+    text-transform: initial;    
+    text-decoration: none;
+    color: rgb(255,255,255);
+    padding: 3%;
+    margin: 11% 5% 5% 5%;
+    display: inline-block;
+    width: 40%;
+    position: relative;
+    left: 25%     
+}
+/*****************Footer*****************/
+.PiePagina {
+    background-color: #00669F;
+    color: #fff;
+    font-size: 20px;
+    height: 60px;
+    padding-top: 20px; 
+    position: absolute;
+    text-align: center;
+    width: 100%;   
+    font-weight: normal;
+}
