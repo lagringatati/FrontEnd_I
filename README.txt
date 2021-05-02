@@ -18,3 +18,10 @@
 *     https://github.com/lagringatati/FrontEnd_I/tree/main/C07   *
 *          https://lagringatati.github.io/FrontEnd_I/C07/        *
 ******************************************************************
+
+******************************************************************
+*                       EJERCICIO CLASE 13                       *
+*                          RESPONSIVE                            *
+*     https://github.com/lagringatati/FrontEnd_I/tree/main/C13   *
+*          https://lagringatati.github.io/FrontEnd_I/C13/        *
+******************************************************************
