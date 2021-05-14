@@ -27,6 +27,13 @@
 ******************************************************************
 
 ******************************************************************
+*                       EJERCICIO CLASE 12                       *
+*                             SPINNER                            *
+*     https://github.com/lagringatati/FrontEnd_I/tree/main/C12   *
+*          https://lagringatati.github.io/FrontEnd_I/C12/        *
+******************************************************************
+
+******************************************************************
 *                       EJERCICIO CLASE 13                       *
 *                          RESPONSIVE                            *
 *     https://github.com/lagringatati/FrontEnd_I/tree/main/C13   *
