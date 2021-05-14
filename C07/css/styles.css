@@ -45,7 +45,8 @@
     background-color: #f3f3f3;
     border-radius: 40px 40px 0 0;
     height: 610px;
-    margin: 4% 39.5%;
+    /*margin: 4% 39.5%;*/
+    margin: 50px auto;
     padding-bottom:150px;
     position: relative;
     width: 400px;
