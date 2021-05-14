@@ -39,3 +39,10 @@
 *     https://github.com/lagringatati/FrontEnd_I/tree/main/C13   *
 *          https://lagringatati.github.io/FrontEnd_I/C13/        *
 ******************************************************************
+
+******************************************************************
+*                       EJERCICIO CLASE 14                       *
+*                          PIZZA - FLEX                          *
+*     https://github.com/lagringatati/FrontEnd_I/tree/main/C14   *
+*          https://lagringatati.github.io/FrontEnd_I/C14/        *
+******************************************************************
