@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar CSH</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Karla:wght@400;700&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="descuento">
+        <p>20% de descuento en todos los productos!</p>
+    </div>
+    <header class="sticky">
+        <img class="logoTienda" src="img/logoTienda.png" alt="Logo de la tienda">
+        <h1>super hero</h1>
+        <nav class="navegador">
+            <ul>
+                <li><a href="contacto.html" target="_blank">contacto</a> </li>
+                <li><a href="register.html" target="_blank">registrarme</a></li>
+                <li><a href="login.html" target="_blank">ingresar</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="formularioAgregar">
+        <h3>Añadí tu super!</h3>
+        <p>Agregá tu personaje favorito completando las opciones.</p>
+        <form class="formuA" action="#" method="POST">
+            <div class="columna derecha">
+                <label for="especie">*Especie</label>
+                <select class="especieFormulario" name="especie" id="especie" required>
+                    <option value="" selected>Especie</option>
+                    <option value="Alien">Alien</option>
+                    <option value="Humano">Humano</option>
+                    <option value="Indefinido">Indefinido</option>
+                    <option value="Zombie">Zombie</option>
+                    <option value="Otro">Otro</option>
+                </select>
+                <div>
+                    <label for="foto" class="required">Agregar Foto</label>
+                    <input class="cargarImagen" type="file" name="foto" id="foto" accept=".jpg,.jpeg,.png">
+                </div>
+                <div class="combo Poderes">
+                    <h6>Poderes</h6>
+                    <label for="volar">
+                        <input class="cuadradito" type="checkbox" name="poderes" id="volar" value="volar">
+                        Volar
+                    </label>
+                    <label for="superInteligencia">
+                        <input class="cuadradito" type="checkbox" name="poderes" id="superInteligencia"
+                            value="superInteligencia">
+                        SuperInteligencia
+                    </label>
+                    <label for="VistaDeRayoLaser">
+                        <input class="cuadradito" type="checkbox" name="poderes" id="VistaDeRayoLaser"
+                            value="vistaDeRayoLaser">
+                        Vista de rayo láser
+                    </label>
+                    <label for="billeteraGorda">
+                        <input class="cuadradito" type="checkbox" name="poderes" id="billeteraGorda"
+                            value="billeteraGorda">
+                        Billetera gorda
+                    </label>
+                </div>
+                <hr>
+                <div class="combo TipoPersonaje">
+                    <h6>Tipo de personaje</h6>
+                    <label for="heroeHeroina">
+                        <input class="circulito" type="radio" name="tipoPersonaje" id="heroeHeroina"
+                            value="heroeHeroina">
+                        Héroe / Heroina
+                    </label>
+                    <label for="villanoVillana">
+                        <input class="circulito" type="radio" name="tipoPersonaje" id="villanoVillana"
+                            value="villanoVillana">
+                        Villano / Villana
+                    </label>
+                </div>
+            </div>
+            <div class="columna izquierda">
+                <label for="nombre">*Nombre</label>
+                <input class="nombreFormulario" type="text" name="nombre" id="nombre">
+                <label for="fecha">Fecha</label>
+                <input class="dateFormulario" type="date" name="fecha" id="fecha">
+                <textarea class="textFormulario" name="descripcion" id="descripcion" cols="30" rows="10"
+                    placeholder="Descripción del super"></textarea>
+            </div>
+            <input class="botonForm aniadirFormulario" id="submit" type="submit" value="Añadir">
+        </form>
+    </main>
+    <footer class="PiePagina">
+        <p>Todos los derechos reservados a CINTIA VETTORAZZI </p>
+    </footer>
+</body>
+
+</html>

@@ -20,6 +20,13 @@
 ******************************************************************
 
 ******************************************************************
+*                  EJERCICIO CLASE 09 - 10 - 11                  *
+*                  CARD SUPER HEROES CON FORMS                   *
+*     https://github.com/lagringatati/FrontEnd_I/tree/main/C09   *
+*          https://lagringatati.github.io/FrontEnd_I/C09/        *
+******************************************************************
+
+******************************************************************
 *                       EJERCICIO CLASE 13                       *
 *                          RESPONSIVE                            *
 *     https://github.com/lagringatati/FrontEnd_I/tree/main/C13   *

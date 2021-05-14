@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es" style="scroll-behavior: smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Cards Super Heroes">
+    <title>Login CSH</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Karla:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="descuento">
+        <p>20% de descuento en todos los productos!</p>
+    </div>
+    <header class="sticky">
+        <img class="logoTienda" src="img/logoTienda.png" alt="Logo de la tienda">
+        <h1>super hero</h1>
+    </header>
+    <main>
+        <div class="formularioGral">
+            <h2>login</h2>
+            <form class="formulario" action="login.html" method="POST">
+                <input class="box usuario" type="text" id="usuario" name="usuario" placeholder="Usuario" required>
+                <input class="box contraseniaLogin" type="password" id="password" name="password"
+                    placeholder="Contraseña" required>
+                <div class="packBotones">
+                    <input class="botonForm entrarLogin" type="submit" value="Entrar" id="entrar">
+                </div>
+                <p>¿No tienes una cuenta? <a href="register.html">Registrarme</a></p>
+            </form>
+        </div>
+    </main>
+    <footer class="PiePagina">
+        <p>Todos los derechos reservados a CINTIA VETTORAZZI </p>
+    </footer>
+</body>
+</html>
